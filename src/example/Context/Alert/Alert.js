@@ -2,8 +2,7 @@ import React from "react";
 import {useAlert} from "./AlertContext";
 
 const Alert = () => {
-        const alert = useAlert();
-        console.log(alert);
+    const alert = useAlert();
 
     if (!alert.visible) return null
 
